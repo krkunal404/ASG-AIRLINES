@@ -1,0 +1,108 @@
+2026-09-05 16:15:44,468 - INFO - Pipeline started
+2026-09-05 16:16:20,781 - INFO - Flights data ingested successfully: (1020, 7)
+2026-09-05 16:19:18,491 - INFO - Validated row count: 1020
+2026-09-05 16:21:01,510 - INFO - Duplicate rows detected: 15
+2026-09-05 16:25:34,382 - INFO - Raw ingested data saved to c:\Users\krkun\OneDrive\Desktop\Neo Stats\data\raw\flights_ingested.csv
+2026-09-05 16:37:58,564 - INFO - Validated row count: 1020
+2026-09-05 16:37:58,618 - INFO - Duplicate rows detected: 15
+2026-09-05 16:37:58,697 - INFO - Raw ingested data saved to c:\Users\krkun\OneDrive\Desktop\Neo Stats\data\raw\flights_ingested.csv
+2026-09-05 16:38:01,448 - INFO - Validated row count: 1020
+2026-09-05 16:38:01,509 - INFO - Duplicate rows detected: 15
+2026-09-05 16:38:01,572 - INFO - Raw ingested data saved to c:\Users\krkun\OneDrive\Desktop\Neo Stats\data\raw\flights_ingested.csv
+2026-09-05 16:41:04,300 - INFO - Data ingestion completed successfully
+2026-09-05 16:46:55,939 - INFO - Pipeline started
+2026-09-05 16:46:56,124 - INFO - Flights data ingested successfully: (1020, 7)
+2026-09-05 16:46:56,187 - INFO - Validated row count: 1020
+2026-09-05 16:46:56,224 - INFO - Duplicate rows detected: 15
+2026-09-05 16:46:56,304 - INFO - Raw ingested data saved to c:\Users\krkun\OneDrive\Desktop\Neo Stats\data\raw\flights_ingested.csv
+2026-09-05 16:46:56,317 - INFO - Data ingestion completed successfully
+2026-09-05 19:06:28,943 - INFO - Pipeline started
+2026-09-05 19:06:29,719 - INFO - Flights data ingested successfully: (1020, 7)
+2026-09-05 19:06:29,811 - INFO - Validated row count: 1020
+2026-09-05 19:06:29,868 - INFO - Duplicate rows detected: 15
+2026-09-05 19:06:29,989 - INFO - Raw ingested data saved to c:\Users\krkun\OneDrive\Desktop\Neo Stats\data\raw\flights_ingested.csv
+2026-09-05 19:06:30,008 - INFO - Data ingestion completed successfully
+2026-09-05 19:14:23,611 - INFO - Pipeline started
+2026-09-05 19:14:23,973 - INFO - Flights data ingested successfully: (1020, 7)
+2026-09-05 19:14:24,027 - INFO - Validated row count: 1020
+2026-09-05 19:14:24,047 - INFO - Duplicate rows detected: 15
+2026-09-05 19:14:24,122 - INFO - Raw ingested data saved to C:\Users\krkun\OneDrive\Desktop\Neo Stats\data\raw\flights_ingested.csv
+2026-09-05 19:14:24,130 - INFO - Data ingestion completed successfully
+2026-09-05 19:21:29,645 - INFO - Pipeline started
+2026-09-05 19:21:29,920 - INFO - Flights data ingested successfully: (1020, 7)
+2026-09-05 19:21:29,968 - INFO - Validated row count: 1020
+2026-09-05 19:21:29,986 - INFO - Duplicate rows detected: 15
+2026-09-05 19:21:30,067 - INFO - Raw ingested data saved to C:\Users\krkun\OneDrive\Desktop\Neo Stats\data\raw\flights_ingested.csv
+2026-09-05 19:21:30,075 - INFO - Data ingestion completed successfully
+2026-09-05 19:21:30,912 - INFO - Bookings sheet loaded: (1000, 9)
+2026-09-05 19:21:30,912 - INFO - Payments sheet loaded: (1000, 4)
+2026-09-05 19:21:30,912 - INFO - Passengers sheet loaded: (1039, 9)
+2026-09-05 19:21:31,059 - INFO - Bookings status cleaned: 45 missing, 30 invalid recoded to Unknown
+2026-09-05 19:21:31,072 - INFO - Payments amount cleaned: 48 missing, 30 invalid, 922 valid numeric
+2026-09-05 19:21:31,089 - INFO - Passengers cleaned: 964 clean, 75 quarantined (ambiguous passenger_id)
+2026-09-05 19:21:31,122 - INFO - Referential integrity: 0 orphans across all 3 relationships; 36 bookings flagged as ambiguous (non-unique parent key)
+2026-09-05 19:21:31,186 - INFO - Task 2 completed for bookings, payments, passengers
+2026-09-05 19:25:53,869 - INFO - Pipeline started
+2026-09-05 19:25:54,153 - INFO - Flights data ingested successfully: (1020, 7)
+2026-09-05 19:25:54,189 - INFO - Validated row count: 1020
+2026-09-05 19:25:54,207 - INFO - Duplicate rows detected: 15
+2026-09-05 19:25:54,276 - INFO - Raw ingested data saved to C:\Users\krkun\OneDrive\Desktop\Neo Stats\data\raw\flights_ingested.csv
+2026-09-05 19:25:54,284 - INFO - Data ingestion completed successfully
+2026-09-05 19:25:55,044 - INFO - Bookings sheet loaded: (1000, 9)
+2026-09-05 19:25:55,044 - INFO - Payments sheet loaded: (1000, 4)
+2026-09-05 19:25:55,045 - INFO - Passengers sheet loaded: (1039, 9)
+2026-09-05 19:25:55,172 - INFO - Bookings status cleaned: 45 missing, 30 invalid recoded to Unknown
+2026-09-05 19:25:55,182 - INFO - Payments amount cleaned: 48 missing, 30 invalid, 922 valid numeric
+2026-09-05 19:25:55,195 - INFO - Passengers cleaned: 964 clean, 75 quarantined (ambiguous passenger_id)
+2026-09-05 19:25:55,226 - INFO - Referential integrity: 0 orphans across all 3 relationships; 36 bookings flagged as ambiguous (non-unique parent key)
+2026-09-05 19:25:55,266 - INFO - Task 2 completed for bookings, payments, passengers
+2026-09-05 19:25:55,401 - INFO - Power BI export written to C:\Users\krkun\OneDrive\Desktop\Neo Stats\data\processed\powerbi: ['fact_flights.csv', 'fact_bookings.csv', 'fact_payments.csv', 'dim_airline.csv', 'dim_route.csv', 'dim_date.csv', 'dim_passenger.csv', 'flight_anomalies.csv', 'passenger_anomalies.csv']
+2026-09-05 19:25:55,407 - INFO - Pipeline completed successfully
+2026-09-05 19:27:25,237 - INFO - Pipeline started
+2026-09-05 19:27:25,562 - INFO - Flights data ingested successfully: (1020, 7)
+2026-09-05 19:27:25,615 - INFO - Validated row count: 1020
+2026-09-05 19:27:25,641 - INFO - Duplicate rows detected: 15
+2026-09-05 19:27:25,743 - INFO - Raw ingested data saved to C:\Users\krkun\OneDrive\Desktop\Neo Stats\data\raw\flights_ingested.csv
+2026-09-05 19:27:25,753 - INFO - Data ingestion completed successfully
+2026-09-05 19:27:26,632 - INFO - Bookings sheet loaded: (1000, 9)
+2026-09-05 19:27:26,632 - INFO - Payments sheet loaded: (1000, 4)
+2026-09-05 19:27:26,632 - INFO - Passengers sheet loaded: (1039, 9)
+2026-09-05 19:27:26,792 - INFO - Bookings status cleaned: 45 missing, 30 invalid recoded to Unknown
+2026-09-05 19:27:26,807 - INFO - Payments amount cleaned: 48 missing, 30 invalid, 922 valid numeric
+2026-09-05 19:27:26,826 - INFO - Passengers cleaned: 964 clean, 75 quarantined (ambiguous passenger_id)
+2026-09-05 19:27:26,862 - INFO - Referential integrity: 0 orphans across all 3 relationships; 36 bookings flagged as ambiguous (non-unique parent key)
+2026-09-05 19:27:26,910 - INFO - Task 2 completed for bookings, payments, passengers
+2026-09-05 19:27:27,044 - INFO - Power BI export written to C:\Users\krkun\OneDrive\Desktop\Neo Stats\data\processed\powerbi: ['fact_flights.csv', 'fact_bookings.csv', 'fact_payments.csv', 'dim_airline.csv', 'dim_route.csv', 'dim_date.csv', 'dim_passenger.csv', 'flight_anomalies.csv', 'passenger_anomalies.csv']
+2026-09-05 19:27:27,050 - INFO - Pipeline completed successfully
+2026-09-05 19:51:18,686 - INFO - Pipeline started
+2026-09-05 19:51:19,039 - INFO - Flights data ingested successfully: (1020, 7)
+2026-09-05 19:51:19,091 - INFO - Validated row count: 1020
+2026-09-05 19:51:19,121 - INFO - Duplicate rows detected: 15
+2026-09-05 19:51:19,229 - INFO - Raw ingested data saved to C:\Users\krkun\OneDrive\Desktop\Neo Stats\data\raw\flights_ingested.csv
+2026-09-05 19:51:19,240 - INFO - Data ingestion completed successfully
+2026-09-05 19:51:20,124 - INFO - Bookings sheet loaded: (1000, 9)
+2026-09-05 19:51:20,124 - INFO - Payments sheet loaded: (1000, 4)
+2026-09-05 19:51:20,124 - INFO - Passengers sheet loaded: (1039, 9)
+2026-09-05 19:51:20,274 - INFO - Bookings status cleaned: 45 missing, 30 invalid recoded to Unknown
+2026-09-05 19:51:20,285 - INFO - Payments amount cleaned: 48 missing, 30 invalid, 922 valid numeric
+2026-09-05 19:51:20,296 - INFO - Passengers cleaned: 964 clean, 75 quarantined (ambiguous passenger_id)
+2026-09-05 19:51:20,320 - INFO - Referential integrity: 0 orphans across all 3 relationships; 36 bookings flagged as ambiguous (non-unique parent key); 0 payments flagged as orphaned
+2026-09-05 19:51:20,355 - INFO - Task 2 completed for bookings, payments, passengers
+2026-09-05 19:51:20,520 - INFO - Power BI export written to C:\Users\krkun\OneDrive\Desktop\Neo Stats\data\processed\powerbi: ['fact_flights.csv', 'fact_bookings.csv', 'fact_payments.csv', 'dim_airline.csv', 'dim_route.csv', 'dim_date.csv', 'dim_passenger.csv', 'flight_anomalies.csv', 'passenger_anomalies.csv']
+2026-09-05 19:51:20,530 - INFO - Pipeline completed successfully
+2026-09-06 11:32:24,679 - INFO - Pipeline started
+2026-09-06 11:32:25,264 - INFO - Flights data ingested successfully: (1020, 7)
+2026-09-06 11:32:25,345 - INFO - Validated row count: 1020
+2026-09-06 11:32:25,373 - INFO - Duplicate rows detected: 15
+2026-09-06 11:32:25,484 - INFO - Raw ingested data saved to C:\Users\krkun\OneDrive\Desktop\Neo Stats\data\raw\flights_ingested.csv
+2026-09-06 11:32:25,495 - INFO - Data ingestion completed successfully
+2026-09-06 11:32:26,495 - INFO - Bookings sheet loaded: (1000, 9)
+2026-09-06 11:32:26,495 - INFO - Payments sheet loaded: (1000, 4)
+2026-09-06 11:32:26,495 - INFO - Passengers sheet loaded: (1039, 9)
+2026-09-06 11:32:26,669 - INFO - Bookings status cleaned: 45 missing, 30 invalid recoded to Unknown
+2026-09-06 11:32:26,684 - INFO - Payments amount cleaned: 48 missing, 30 invalid, 922 valid numeric
+2026-09-06 11:32:26,699 - INFO - Passengers cleaned: 964 clean, 75 quarantined (ambiguous passenger_id)
+2026-09-06 11:32:26,730 - INFO - Referential integrity: 0 orphans across all 3 relationships; 36 bookings flagged as ambiguous (non-unique parent key); 0 payments flagged as orphaned
+2026-09-06 11:32:26,772 - INFO - Task 2 completed for bookings, payments, passengers
+2026-09-06 11:32:26,916 - INFO - Power BI export written to C:\Users\krkun\OneDrive\Desktop\Neo Stats\data\processed\powerbi: ['fact_flights.csv', 'fact_bookings.csv', 'fact_payments.csv', 'dim_airline.csv', 'dim_route.csv', 'dim_date.csv', 'dim_passenger.csv', 'flight_anomalies.csv', 'passenger_anomalies.csv']
+2026-09-06 11:32:26,922 - INFO - Pipeline completed successfully
